@@ -1,3 +1,31 @@
+# Steps to run WebRTC-Video-Call locally
+
+# Folder -> webrtc-video-call
+
+# For Server Side 
+
+cd server
+
+# Run Server locally
+
+npm start 
+
+# PORT should be 8000
+
+listening on port 8000
+
+# For Client Side
+
+cd client
+
+# Install Packages to have node_modules locally
+
+npm install
+
+then, run npm start
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
