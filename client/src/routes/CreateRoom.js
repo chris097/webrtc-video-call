@@ -33,9 +33,9 @@ const CreateRoom = () => {
                                 value={text}
                                 type="text" className='w-full h-14 bg-[#363739] outline-none my-4 px-4 rounded-md' required />
                         </div>
-                        <button type='submit' className='bg-[#845695] w-full p-4 rounded-md font-medium'>
-                            <a href={text}>Join Room</a>
-                        </button>
+                        <a href={text} className="bg-[#845695] text-center w-full p-4 rounded-md font-medium">
+                            Join Room
+                        </a>
                     </div>
                 </form>
             </div>

@@ -8,7 +8,7 @@ const StreamButton = ({toggleCamera, cameraRef, audioRef, toggleMic}) => {
     const iconWidth = 'w-5 h-5';
 
   return (
-     <div className='w-1/2 bottom-6 fixed flex justify-end gap-4 mx-auto'>
+     <div className='w-1/2 xl:bottom-6 bottom-10 fixed flex justify-end xl:-ml-0 -ml-28 gap-4 mx-auto'>
              <div onClick={toggleCamera} ref={cameraRef} className={`${iconStyle}`}>
                     <BsFillCameraVideoFill color='#fff' className={`${iconWidth}`} />
                 </div>
